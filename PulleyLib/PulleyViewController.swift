@@ -312,7 +312,7 @@ open class PulleyViewController: UIViewController {
             
             if supportedDrawerPositions.contains(drawerPosition)
             {
-                setDrawerPosition(position: drawerPosition)
+                setDrawerPosition(position: drawerPosition, animated: false)
             }
             else
             {
